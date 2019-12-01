@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>CalculatorJS</title>
 	<meta name="author" content="Connor Burri">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="description" content="just for fun, wanted to learn some JavaScript and CSS Skills">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="scripts.js"></script>
 </head>
 <body>
-	<h1 id="title">CalculatorJS</h1>
-	<h7 id="subtext">a small project to learn CSS and JS better by <i>Connor Burri</i></h7>
-	<textarea id="screen">0</textarea>
-	<div id="buttons">
-		<div id="first-row">
-			<button id="percent">%</button>
-			<button id="sqrt">√</button>
-			<button id="square">X^2</button>
-			<button id="reciprocol">1/X</button>
+	<div id="title-container">
+		<h1 id="title">CalculatorJS</h1>
+		<h7 id="subtitle">a small project to learn CSS and JS better by <i>Connor Burri</i></h7>
+	</div>
+	<br>
+	<div id="calculator">
+		<div id="screen-container">
+			<textarea id="screen">0</textarea>
 		</div>
-		<div id="second-row">
-			<button id="ce">CE</button>
-			<button id="c">C</button>
-			<button id="back"><-</button>
-			<button id="divide">/</button>
-		</div>
-		<div id="third-row">
-			<button id="seven">7</button>
-			<button id="eight">8</button>
-			<button id="nine">9</button>
-			<button id="multiply">X</button>
-		</div>
-		<div id="fourth-row">
-			<button id="four">4</button>
-			<button id="five">5</button>
-			<button id="six">6</button>
-			<button id="minus">-</button>
-		</div>
-		<div id="fifth-row">
-			<button id="one">1</button>
-			<button id="two">2</button>
-			<button id="three">3</button>
-			<button id="plus">+</button>
-		</div>
-		<div id="sixth-row">
-			<button id="invert-sign">+/-</button>
-			<button id="zero">0</button>
-			<button id="dot">.</button>
-			<button id="equal">=</button>
+		<div id="buttons">
+			<div id="first-row">
+				<button id="percent">%</button>
+				<button id="sqrt">√</button>
+				<button id="square">X^2</button>
+				<button id="reciprocol">1/X</button>
+			</div>
+			<div id="second-row">
+				<button id="ce">CE</button>
+				<button id="c">C</button>
+				<button id="back"><-</button>
+				<button id="divide">/</button>
+			</div>
+			<div id="third-row">
+				<button id="seven">7</button>
+				<button id="eight">8</button>
+				<button id="nine">9</button>
+				<button id="multiply">X</button>
+			</div>
+			<div id="fourth-row">
+				<button id="four">4</button>
+				<button id="five">5</button>
+				<button id="six">6</button>
+				<button id="minus">-</button>
+			</div>
+			<div id="fifth-row">
+				<button id="one">1</button>
+				<button id="two">2</button>
+				<button id="three">3</button>
+				<button id="plus">+</button>
+			</div>
+			<div id="sixth-row">
+				<button id="invert-sign">+/-</button>
+				<button id="zero">0</button>
+				<button id="dot">.</button>
+				<button id="equal">=</button>
+			</div>
 		</div>
 	</div>
 </body>
